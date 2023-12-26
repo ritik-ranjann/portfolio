@@ -4,48 +4,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+    <title>MyPortfolio</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1.5px solid black;
+        }
+    </style>
 </head>
 
-<body>
-    <table border="1" style="width: 40rem; height: 30rem;" cellspacing="0" cellpadding="20">
+<body style="background-color: rgb(24, 241, 197); color: brown;">
+
+    <table cellpadding="10" cellspacing="0">
+        <!--Row 1-->
         <tr>
-            <td rowspan="2">a</td>
-            <td>b</td>
-        </tr>
-        <tr>
-            <td>c</td>
-        </tr>
-        <tr>
-            <td colspan="2">d</td>
-        </tr>
-        <tr>
-            <td rowspan="2">
-                <table border="1" cellspacing="0" cellpadding="10">
-                    <tr>
-                        <td colspan="2">e</td>
-                    </tr>
-                    <tr>
-                        <td>f</td>
-                        <td>g</td>
-                    </tr>
-                </table>
+            <td rowspan="5" class="introduction">
+                <img src="./ritik.jpg" width="40%" height="20%" alt="ritik" class="image"> <dt style="font-size: xx-large; ">Ritik Ranjan</dt>
+                <a href="https://mail.google.com/mail/u/1/#inbox?compose=new " target="_blank " class="email ">ritik.ranjan2002@gmail.com</a><br><a href="https://www.linkedin.com/in/ritik-ranjan-80837b214/ " target="_blank ">Linkedin</a><br>
+                <a href="http:// ">Github</a><br> Contact No.-7301587412<br>Address : Near p.g.n School 2,Maranpur,GAYA(BIHAR) 823001</td>
+            <td colspan="2 ">About
+                <div>To obtain a position where I can fully utilize my technical skills in the domain of Electrical and Electronics Engineering in a corporate environment, where my knowledge in Development and design using technical skills would highly contribute
+                    the company’s success.
+                </div>
             </td>
         </tr>
+        <!--row 2-->
         <tr>
-            <td rowspan="2 ">pen
+            <td>
+                Skills
                 <dd>
-                    <li>pen1</li>
-                    <li>pen2</li>
-                </dd>
-                pencil
-                <dd style="list-style-type:square;">
-                    <li>pencil1</li>
-                    <li>pencil2</li>
+                    <li>C++</li>
+                    <li>JAVA</li>
+                    <li>HTML & CSS</li>
+                    <li>SQL</li>
+                    <li>Arduino</li>
                 </dd>
             </td>
         </tr>
+
+        <!--row 3-->
+        <tr>
+            <td>
+                <dl>Educational detail
+                    <!--Inner table-->
+                    <dd>
+                        <table align="center " cellpadding="6 " cellspacing="0 ">
+                            <!--Row-1-->
+                            <th>
+                                <td>Percentage/CGPA</td>
+                                <td>School/College</td>
+                                <td>Year Of Passing</td>
+                            </th>
+                            <!--Row 2-->
+                            <tr>
+                                <td>10th</td>
+                                <td>8.6CGPA</td>
+                                <td>P.T.J.M. Saraswati Vidya Mandir,Rajgir</td>
+                                <td>2016</td>
+                            </tr>
+
+                            <!--Row 3-->
+                            <tr>
+                                <td>12th</td>
+                                <td>65%</td>
+                                <td>Wazirganj College,Wazirganj</td>
+                                <td>2019</td>
+                            </tr>
+                            <!--Row 4-->
+                            <tr>
+
+                                <td>Graduation</td>
+                                <td>67.47%</td>
+                                <td>Shershah Engineering College,Sasaram</td>
+                                <td>2023</td>
+                            </tr>
+                        </table>
+                    </dd>
+                </dl>
+            </td>
+
+        </tr>
+        <!--row 4-->
+        <tr>
+            <td>
+                <dl><b>Achievements/certificates</b></dl>
+            </td>
+        </tr>
+        <!--Row 5-->
+        <tr>
+            <td>
+                <dl><b>Projects</b></dl>
+                <dd>Solar Tracking System
+                    <li>It is dual axis solar tracking system ,This project work with the help of Arduino uno microcontroller board based on the ATmega328P.</li>
+                    <li>This project worked on 360° rotation with the sunlight direction by help to servo motor and LDR(Light dependent-resistor).</li>
+                </dd><br>
+                <dd>Amazon Clone
+                    <li>By using html & css, done homepage of amazon.com</li>
+                </dd><br>
+                <dd>Obstacle Avoiding Car
+                    <li>Project on Arduino UNO microcontroller board based on ATmega328P based Obstacle avoiding car, It works on sensor elements and auto detect any obstacle and choose own way automatically.</li>
+                </dd>
+            </td>
+        </tr>
+
+
     </table>
 </body>
 
