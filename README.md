@@ -1,3 +1,3 @@
 # portfolio
 --------------------------------------
-this portfolis is all about my resume.
+this portfolio is all about my resume.
