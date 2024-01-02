@@ -5,26 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyPortfolio</title>
+    <link rel="stylesheet" href="table.css">
     <style>
-        table,
-        th,
-        td {
-            border: 1.5px solid black;
-        }
+
     </style>
 </head>
 
-<body style="background-color: rgb(24, 241, 197); color: brown;">
+<body>
 
-    <table cellpadding="10" cellspacing="0">
+    <table class="Maintable" cellpadding="10" cellspacing="0">
         <!--Row 1-->
         <tr>
-            <td rowspan="5" class="introduction">
-                <img src="./ritik.jpg" width="40%" height="20%" alt="ritik" class="image"> <dt style="font-size: xx-large; ">Ritik Ranjan</dt>
-                <a href="https://mail.google.com/mail/u/1/#inbox?compose=new " target="_blank " class="email ">ritik.ranjan2002@gmail.com</a><br><a href="https://www.linkedin.com/in/ritik-ranjan-80837b214/ " target="_blank ">Linkedin</a><br>
-                <a href="http:// ">Github</a><br> Contact No.-7301587412<br>Address : Near p.g.n School 2,Maranpur,GAYA(BIHAR) 823001</td>
+            <td rowspan="5" class="profile">
+                <!-- <img src="./ritik.jpg" width="200px" height="320px" alt="ritik" class="image">-->
+                <div class="image"></div> <dt class="naam">Ritik Ranjan</dt>
+                <dt class="gmail"><a href="https://mail.google.com/mail/u/1/#inbox?compose=new " target="_blank " class="email ">ritik.ranjan2002@gmail.com</a></dt>
+                <dt class="linkedin"><a href="https://www.linkedin.com/in/ritik-ranjan-80837b214/ " target="_blank ">Linkedin</a></dt>
+                <dt class="git"><a href="https://github.com/ritik-ranjann">Github</a></dt><dt class="contact"> <u>Contact No.</u>: +91 7301587412 </dt><dt class="add">Address&nbsp;:&nbsp;Near p.g.n School 2,Maranpur,GAYA(BIHAR) 823001</dt>
+            </td>
             <td colspan="2 ">About
-                <div>To obtain a position where I can fully utilize my technical skills in the domain of Electrical and Electronics Engineering in a corporate environment, where my knowledge in Development and design using technical skills would highly contribute
+                <div class="about">To obtain a position where I can fully utilize my technical skills in the domain of Electrical and Electronics Engineering in a corporate environment, where my knowledge in Development and design using technical skills would highly contribute
                     the company’s success.
                 </div>
             </td>
@@ -45,11 +45,11 @@
 
         <!--row 3-->
         <tr>
-            <td>
-                <dl>Educational detail
+            <td>Educational detail
+                <dl>
                     <!--Inner table-->
                     <dd>
-                        <table align="center " cellpadding="6 " cellspacing="0 ">
+                        <table class="qualification " align="center " cellpadding="6 " cellspacing=" ">
                             <!--Row-1-->
                             <th>
                                 <td>Percentage/CGPA</td>
@@ -88,13 +88,14 @@
         <!--row 4-->
         <tr>
             <td>
-                <dl><b>Achievements/certificates</b></dl>
+                <dl>Achievements/certificates
+                </dl>
             </td>
         </tr>
         <!--Row 5-->
         <tr>
             <td>
-                <dl><b>Projects</b></dl>
+                <dl>Projects</dl>
                 <dd>Solar Tracking System
                     <li>It is dual axis solar tracking system ,This project work with the help of Arduino uno microcontroller board based on the ATmega328P.</li>
                     <li>This project worked on 360° rotation with the sunlight direction by help to servo motor and LDR(Light dependent-resistor).</li>
